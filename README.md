@@ -1,4 +1,23 @@
 # Statistics-in-Python    
+This project explains how to perform basic and advanced statistics in Python using Pandas, NumPy, and SciPy. It covers descriptive statistics, measures of dispersion, correlation, covariance, and different hypothesis tests like t-tests, ANOVA, Chi-square, and Mann-Whitney tests.
+
+Summary - 
+
+1.Created a sample dataset using Pandas.
+
+2.Calculated mean, median, mode, range, IQR, variance, and standard deviation.
+
+3.Measured skewness and kurtosis to understand distribution shape.
+
+4.Computed covariance and correlation between skills.
+
+5.Performed hypothesis tests: one-sample t-test, two-sample t-test, paired t-test.
+
+6.Applied ANOVA, Chi-square, and Mann-Whitney tests.
+
+7.Interpreted p-values to accept or reject null hypotheses.
+
+
 ```python
 ## 1 - Import pandas and create dataframe
 import pandas as pd
@@ -206,3 +225,8 @@ else:
 
 ## Variance
 data['Communication_skill_score'].var()
+
+Conclusion -
+
+Python makes statistical analysis easy and efficient. Using Pandas and SciPy, we can quickly understand data, measure relationships between variables, and test hypotheses.
+The results show that communication and quantitative skills are almost independent, and statistical tests help identify meaningful differences between groups.
